@@ -1,13 +1,47 @@
 <!DOCTYPE html>
+<html dir="ltr" lang="en">
 <div id="title">
 <head> 
   <link rel="stylesheet" type = "text/css" href="style.css">
   <meta name = "description" content= "Katelyn Slaney">
-  <h1> Katelyn Slaney </h1> 
+  <meta http-equiv="Content-Type" content="text.html; charset=utf-8">
+  <meta http-equiv="Content-Script-Type" content= "text/javascript">
+        <script type="text/javascript">
+             var slideimages= new array() 
+             slideimages[0]= new Image()
+             slideimages[0].src = "https://scontent-lga3-1.xx.fbcdn.net/t31.0-8/10321039_10203248058155790_8435927010651529917_o.jpg"
+             slideimages[1] = new Image()
+             slideimages[1].src = "https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/1607029_10203797848857583_7572855096468426977_n.jpg?oh=ec1b404f2177325454841bb86acf6c25&oe=585F3428"
+             slideimages[2] = new Image()
+             slideimages[2].src = "https://scontent-lga3-1.xx.fbcdn.net/t31.0-8/13064692_10206192539804675_206621491767211938_o.jpg"
+        </script>
+  <title> Katelyn Slaney </title> 
 </head>
 </div>
   <div id="main text">
 <body>
-helllo!
+  <img src= "https://scontent-lga3-1.xx.fbcdn.net/t31.0-8/10321039_10203248058155790_8435927010651529917_o.jpg" id="slide"/>
+  <script type = "text/javascript">
+    var step=0
+    
+    function slideit(){
+      if (!document.images)
+        return
+        document.getElementById('slide').src= slideimages[step].src
+        if (step<2)
+          step++
+        else
+          step=0
+        setTimeout("slideit()", 3500)
+    }
+    slideit()
+  </script>
+<h1> 
+ About Me
+</h1>
+  <p1>
+    Lalala 
+  </p1>
+  
 </body>
 </div>
