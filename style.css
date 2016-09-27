@@ -2,10 +2,11 @@ h1 {color:orange;
   text-align:center;
 }
 
-body { 
+script { 
   width:250px;
   height:250px;
-  float:center;
+  float:right;
+  clear:left;
 }
 ul{
  list-style-type:none;
