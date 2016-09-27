@@ -15,7 +15,7 @@ ul{
   background-color:black;
 }  
 li{ 
-  display:inline;
+  float:left;
 }
 li a {
   display:block;
