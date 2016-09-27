@@ -7,6 +7,13 @@ body {
   height:250px;
   float:center;
 }
+ul{
+ list-style-type:none;
+  margin:0;
+  padding: 0;
+  overflow: hidden;
+  background-color:black;
+}  
 li{ 
   display:inline;
 }
