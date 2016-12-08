@@ -15,10 +15,11 @@ script {
 ul{
  list-style-type:none;
   margin: 1;
-  padding: 0;
+  padding: 5px;
   overflow: hidden;
-  background-color:black;
+  background-color:#b6ffff;
   color:white;
+  float:center;
 }  
 li a{
   display:block;
@@ -29,6 +30,7 @@ li a{
   font-family:garamond;
 }
 li a:hover{
+  padding:7px;
   background-color:grey; 
 }
 #HomeBtn{ 
@@ -43,7 +45,8 @@ li a:hover{
   font-family:garamond;
 }
 #HomeBtn a:hover {
- background-color:grey; 
+  padding:7px;
+  background-color:grey; 
 }
 #AboutBtn{ 
   float:left;
