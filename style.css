@@ -36,10 +36,12 @@ li a:hover{
   background-color:grey; 
 }
 #HomeBtn{ 
-  float:left;
+  display:inline-block;
+  position:relative;
+  text-align:center;
 }
 #HomeBtn a {
-  position:relative;
+  display:block;
   color: white;
   text-align: center;
   padding: 14px 16px;
@@ -51,11 +53,11 @@ li a:hover{
   background-color:grey; 
 }
 #AboutBtn{ 
-  float:left;
-}
-#AboutBtn a {
+  display:inline-block;
   position:relative;
-
+  text-align:center;
+}
+#AboutBtn a {  
   color: white;
   text-align: center;
   padding: 14px 16px;
@@ -66,7 +68,9 @@ li a:hover{
  background-color:grey; 
 }
 #LinkBtn{ 
-  float:left;
+  display:inline-block;
+  position:relative;
+  text-align:center;
 }
 #LinkBtn a {
   position:relative;
