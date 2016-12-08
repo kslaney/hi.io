@@ -20,10 +20,10 @@ ul{
   background-color:black;
   color:white;
 }  
-#mybutton{ 
+#HomeBtn{ 
   float:left;
 }
-#mybutton a {
+#HomeBtn a {
   display:block;
   color: white;
   text-align: center;
@@ -31,6 +31,34 @@ ul{
   text-decoration:none;
   font-family:garamond;
 }
-#mybutton a:hover {
+#HomeBtn a:hover {
+ background-color:grey; 
+}
+#AboutBtn{ 
+  float:left;
+}
+#AboutBtn a {
+  display:block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration:none;
+  font-family:garamond;
+}
+#AboutBtn a:hover {
+ background-color:grey; 
+}
+#LinkBtn{ 
+  float:left;
+}
+#LinkBtn a {
+  display:block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration:none;
+  font-family:garamond;
+}
+#LinkBtn a:hover {
  background-color:grey; 
 }
