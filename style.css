@@ -21,7 +21,7 @@ script {
   background-color: #b6ffff;
   border: none;
   color: white;
-  padding: 15px 32px;
+  padding: 10px 20px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -41,13 +41,25 @@ script {
 }
 #HomeBtn a:hover {
   padding:7px;
-   background-color: #e6ffff; /* Green */
+   background-color: #e6ffff; 
     color: white;
 }
 #AboutBtn{ 
-  display:inline-block;
+   display:inline-block;
   position:relative;
   text-align:center;
+  list-style:none;
+  background-color: #b6ffff;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
 }
 #AboutBtn a {  
   color: white;
@@ -57,12 +69,26 @@ script {
   font-family:garamond;
 }
 #AboutBtn a:hover {
- background-color:grey; 
+  padding:7px;
+   background-color: #e6ffff; 
+    color: white;
 }
 #LinkBtn{ 
   display:inline-block;
   position:relative;
   text-align:center;
+  list-style:none;
+  background-color: #b6ffff;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
 }
 #LinkBtn a {
   position:relative;
@@ -74,5 +100,7 @@ script {
   font-family:garamond;
 }
 #LinkBtn a:hover {
- background-color:grey; 
+  padding:7px;
+   background-color: #e6ffff; 
+    color: white;
 }
