@@ -20,7 +20,7 @@ script {
   list-style:none;
   background-color: #b6ffff;
   border: none;
-  color: white;
+  color: black;
   padding: 10px 20px;
   text-align: center;
   text-decoration: none;
@@ -32,7 +32,7 @@ script {
 }
 #HomeBtn a {
   display:block;
-  color: white;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration:none;
@@ -51,7 +51,7 @@ script {
   list-style:none;
   background-color: #b6ffff;
   border: none;
-  color: white;
+  color: black;
   padding: 10px 20px;
   text-align: center;
   text-decoration: none;
@@ -62,7 +62,7 @@ script {
     transition-duration: 0.4s;
 }
 #AboutBtn a {  
-  color: white;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration:none;
@@ -80,7 +80,7 @@ script {
   list-style:none;
   background-color: #b6ffff;
   border: none;
-  color: white;
+  color: black;
   padding: 10px 20px;
   text-align: center;
   text-decoration: none;
@@ -93,7 +93,7 @@ script {
 #LinkBtn a {
   position:relative;
   display:block;
-  color: white;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration:none;
