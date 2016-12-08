@@ -16,6 +16,7 @@ script {
   display:inline-block;
   position:relative;
   text-align:center;
+  list-style:none;
 }
 #HomeBtn a {
   display:block;
