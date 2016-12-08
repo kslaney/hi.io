@@ -13,7 +13,7 @@ script {
   clear:left;
 }
 ul{
-  display:inline-block;
+  display:block;
  list-style-type:none;
   text-align:center;
   margin: 1;
