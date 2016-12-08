@@ -20,10 +20,10 @@ ul{
   background-color:black;
   color:white;
 }  
-li{ 
+#mybutton{ 
   float:left;
 }
-li a {
+#mybutton a {
   display:block;
   color: white;
   text-align: center;
@@ -31,6 +31,6 @@ li a {
   text-decoration:none;
   font-family:garamond;
 }
-li a:hover {
+#mybutton a:hover {
  background-color:grey; 
 }
