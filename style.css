@@ -12,29 +12,6 @@ script {
   float:right;
   clear:left;
 }
-ul{
-  display:block;
- list-style-type:none;
-  text-align:center;
-  margin: 1;
-  padding: 5px;
-  overflow: hidden;
-  background-color:#b6ffff;
-  color:white;
-  float:center;
-}  
-li a{
-  display:block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration:none;
-  font-family:garamond;
-}
-li a:hover{
-  padding:7px;
-  background-color:grey; 
-}
 #HomeBtn{ 
   display:inline-block;
   position:relative;
