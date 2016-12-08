@@ -37,7 +37,8 @@ li a:hover{
   float:left;
 }
 #HomeBtn a {
-  display:block;
+  display:inline-block;
+  position:relative;
   color: white;
   text-align: center;
   padding: 14px 16px;
@@ -52,7 +53,8 @@ li a:hover{
   float:left;
 }
 #AboutBtn a {
-  display:block;
+  position:relative;
+  display:inline-block;
   color: white;
   text-align: center;
   padding: 14px 16px;
@@ -66,6 +68,7 @@ li a:hover{
   float:left;
 }
 #LinkBtn a {
+  position:relative;
   display:block;
   color: white;
   text-align: center;
